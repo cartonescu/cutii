@@ -83,7 +83,9 @@ export default function Footer({ copyrightText }) {
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
         {copyrightText}
       </p>
-      <ThemeSwitcher />
+       <Link href="https://amclightpack.ro/">
+          <a>SC Amc Light Pack SRL</a>
+        </Link>
     </footer>
   );
 }
